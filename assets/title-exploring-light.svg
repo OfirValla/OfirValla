@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84" fill="none" role="img">
+<title>Currently exploring</title>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<linearGradient id="label" x1="389.9" y1="0" x2="610.1" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#7c3aed"/>
+  <stop offset="0.5" stop-color="#0891b2"/>
+  <stop offset="1" stop-color="#db2777"/>
+</linearGradient>
+<linearGradient id="rule-l" x1="349.9" y1="0" x2="134" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#7c3aed" stop-opacity="0.8"/>
+  <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="rule-r" x1="650.1" y1="0" x2="866" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#db2777" stop-opacity="0.8"/>
+  <stop offset="1" stop-color="#db2777" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<path d="M349.9 29 H134" stroke="url(#rule-l)" stroke-width="1.5"/>
+<path d="M650.1 29 H866" stroke="url(#rule-r)" stroke-width="1.5"/>
+<rect x="364.4" y="25.5" width="7" height="7" rx="1.5" fill="#7c3aed" transform="rotate(45 367.9 29)"/>
+<rect x="628.6" y="25.5" width="7" height="7" rx="1.5" fill="#db2777" transform="rotate(45 632.1 29)"/>
+<text class="mono" x="389.9" y="34" font-size="13" font-weight="700" letter-spacing="4" fill="url(#label)">CURRENTLY EXPLORING</text>
+<text x="500" y="64" text-anchor="middle" font-size="14" fill="#7d8299">what I'm learning and tinkering with</text>
+</svg>

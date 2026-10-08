@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="246" viewBox="0 0 500 246" fill="none" role="img">
+<title>Credo: Plan, track and optimize mortgage and loan portfolios: month-by-month amortization, extra payments, rate changes and CPI-linked loans. All data stays in your browser.</title>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+.glow { transform-box: fill-box; transform-origin: center; animation: breathe 9s ease-in-out infinite alternate; }
+@keyframes breathe { from { transform: scale(0.9); } to { transform: scale(1.2); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<clipPath id="card-clip"><rect x="14" y="8" width="472" height="220" rx="20"/></clipPath>
+<linearGradient id="card-edge" x1="14" y1="8" x2="486" y2="228" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#34d399" stop-opacity="0.7"/>
+  <stop offset="0.5" stop-color="#262c4a"/>
+  <stop offset="1" stop-color="#262c4a"/>
+</linearGradient>
+<filter id="card-blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter>
+
+<linearGradient id="tile" x1="38" y1="32" x2="88" y2="82" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#059669"/>
+  <stop offset="1" stop-color="#0891b2"/>
+</linearGradient>
+</defs>
+<rect x="14" y="8" width="472" height="220" rx="20" fill="#0f1324"/>
+<g clip-path="url(#card-clip)">
+  <circle class="glow" cx="436" cy="18" r="130" fill="#34d399" opacity="0.32" filter="url(#card-blur)"/>
+</g>
+<rect x="14.5" y="8.5" width="471" height="219" rx="19.5" stroke="url(#card-edge)"/>
+
+<rect x="38" y="32" width="50" height="50" rx="14" fill="url(#tile)"/>
+<rect x="38.5" y="32.5" width="49" height="49" rx="13.5" stroke="#ffffff" stroke-opacity="0.22"/>
+<g transform="translate(50 44) scale(1.08)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="22" y2="22" /> <line x1="6" x2="6" y1="18" y2="11" /> <line x1="10" x2="10" y1="18" y2="11" /> <line x1="14" x2="14" y1="18" y2="11" /> <line x1="18" x2="18" y1="18" y2="11" /> <polygon points="12 2 20 7 4 7" /></g>
+<text x="104" y="55" font-size="20" font-weight="700" fill="#eef0fb">Credo</text>
+<text class="mono" x="104" y="76" font-size="12" fill="#6f7694">OfirValla/Credo</text>
+<circle cx="444" cy="57" r="17" fill="#161b33" stroke="#262c4a"/>
+<g transform="translate(436 49) scale(0.67)" fill="none" stroke="#a9b0cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" /> <path d="M7 17 17 7" /></g>
+<text x="38" y="114" font-size="14" fill="#a9b0cc">Plan, track and optimize mortgage and loan portfolios:</text>
+<text x="38" y="136" font-size="14" fill="#a9b0cc">month-by-month amortization, extra payments, rate changes</text>
+<text x="38" y="158" font-size="14" fill="#a9b0cc">and CPI-linked loans. All data stays in your browser.</text>
+<rect x="38" y="180" width="54.5" height="24" rx="12" fill="#161b33" stroke="#262c4a"/><text class="mono" x="65.25" y="196.03" text-anchor="middle" font-size="11.5" fill="#a9b0cc">React</text>
+<rect x="100.5" y="180" width="89" height="24" rx="12" fill="#161b33" stroke="#262c4a"/><text class="mono" x="145" y="196.03" text-anchor="middle" font-size="11.5" fill="#a9b0cc">TypeScript</text>
+<rect x="197.5" y="180" width="75.2" height="24" rx="12" fill="#161b33" stroke="#262c4a"/><text class="mono" x="235.1" y="196.03" text-anchor="middle" font-size="11.5" fill="#a9b0cc">Tailwind</text>
+<rect x="280.7" y="180" width="75.2" height="24" rx="12" fill="#161b33" stroke="#262c4a"/><text class="mono" x="318.3" y="196.03" text-anchor="middle" font-size="11.5" fill="#a9b0cc">Recharts</text>
+</svg>

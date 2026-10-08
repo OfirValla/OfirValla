@@ -1,0 +1,54 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "23 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      # Falls back to the built-in token (public data only). Add a PROFILE_TOKEN
+      # secret and set stats.includePrivate in scripts/profile.config.mjs to count private repos.
+      GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+      PROFILE_USER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build artwork
+        run: node scripts/build-assets.mjs
+
+      - name: Update stats cards
+        run: node scripts/update-stats.mjs
+
+      - name: Update recent activity
+        run: node scripts/update-activity.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats and activity"
+          git push

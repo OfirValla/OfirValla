@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" fill="none" role="img">
+<title>Thanks for stopping by</title>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+.wave-0 { animation: flow-0 18s linear infinite; }
+@keyframes flow-0 { to { transform: translateX(-520px); } }
+.wave-1 { animation: flow-1 13s linear infinite; }
+@keyframes flow-1 { to { transform: translateX(-380px); } }
+.wave-2 { animation: flow-2 9s linear infinite; }
+@keyframes flow-2 { to { transform: translateX(-300px); } }
+.spark { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<linearGradient id="wave" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#7c3aed"/>
+  <stop offset="0.5" stop-color="#0891b2"/>
+  <stop offset="1" stop-color="#db2777"/>
+</linearGradient>
+<linearGradient id="fade" x1="0" y1="100" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#fff" stop-opacity="0.45"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+</linearGradient>
+<mask id="wave-mask"><rect x="0" y="0" width="1000" height="170" fill="url(#fade)"/></mask>
+<clipPath id="footer-frame"><rect x="14" y="-40" width="972" height="204" rx="26"/></clipPath>
+</defs>
+<g class="spark"><g transform="translate(488 14) scale(1)" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /></g></g>
+<text x="500" y="68" text-anchor="middle" font-size="15" fill="#4a4f68">Thanks for stopping by</text>
+<g mask="url(#wave-mask)" clip-path="url(#footer-frame)">
+  <path class="wave-0" d="M-520 118 Q-390 100 -260 118 T0 118 T260 118 T520 118 T780 118 T1040 118 T1300 118 T1560 118 T1820 118 T2080 118 V170 H-520 Z" fill="url(#wave)" opacity="0.14"/>
+  <path class="wave-1" d="M-380 132 Q-285 116 -190 132 T0 132 T190 132 T380 132 T570 132 T760 132 T950 132 T1140 132 T1330 132 T1520 132 T1710 132 T1900 132 V170 H-380 Z" fill="url(#wave)" opacity="0.18"/>
+  <path class="wave-2" d="M-300 146 Q-225 134 -150 146 T0 146 T150 146 T300 146 T450 146 T600 146 T750 146 T900 146 T1050 146 T1200 146 T1350 146 T1500 146 T1650 146 V170 H-300 Z" fill="url(#wave)" opacity="0.24"/>
+</g>
+</svg>
