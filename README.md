@@ -67,7 +67,6 @@
 - `Sep 19` &nbsp;🔨 Pushed to [LabelStamp](https://github.com/OfirValla/LabelStamp)
 - `Sep 09` &nbsp;🔨 Pushed to [do-it](https://github.com/OfirValla/do-it)
 - `Sep 08` &nbsp;🔨 Pushed to [Wallflower](https://github.com/OfirValla/Wallflower)
-- `Sep 07` &nbsp;🔨 Pushed to [do-it](https://github.com/OfirValla/do-it)
 <!-- ACTIVITY:END -->
 
 <picture>
