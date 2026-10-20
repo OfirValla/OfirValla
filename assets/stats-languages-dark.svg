@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="256" viewBox="0 0 500 256" fill="none" role="img">
-<title>Most used languages across 13 public repos: TypeScript 52.8%, Dart 24.2%, Kotlin 14.7%, Other 8.4%</title>
+<title>Most used languages across 13 public repos: TypeScript 52.2%, Dart 23.9%, Kotlin 14.5%, Other 9.4%</title>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
 .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
@@ -26,17 +26,17 @@ text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 
 
 <text x="38" y="48" font-size="16" font-weight="700" fill="#eef0fb">Languages</text>
 <text x="462" y="48" text-anchor="end" font-size="12.5" fill="#6f7694">across 13 public repos</text>
-<g clip-path="url(#lang-bar)"><rect x="38" y="70" width="220.7" height="12" fill="#7c3aed"/><rect x="260.7" y="70" width="101.05" height="12" fill="#0891b2"/><rect x="363.75" y="70" width="61.32" height="12" fill="#db2777"/><rect x="427.06" y="70" width="34.94" height="12" fill="#3b4264"/></g>
+<g clip-path="url(#lang-bar)"><rect x="38" y="70" width="218.23" height="12" fill="#7c3aed"/><rect x="258.23" y="70" width="99.92" height="12" fill="#0891b2"/><rect x="360.15" y="70" width="60.63" height="12" fill="#db2777"/><rect x="422.79" y="70" width="39.21" height="12" fill="#3b4264"/></g>
 <rect x="38" y="104" width="11" height="11" rx="3" fill="#7c3aed"/>
 <text x="60" y="114" font-size="14" fill="#eef0fb">TypeScript</text>
-<text x="462" y="114" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">52.8%</text>
+<text x="462" y="114" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">52.2%</text>
 <rect x="38" y="134" width="11" height="11" rx="3" fill="#0891b2"/>
 <text x="60" y="144" font-size="14" fill="#eef0fb">Dart</text>
-<text x="462" y="144" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">24.2%</text>
+<text x="462" y="144" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">23.9%</text>
 <rect x="38" y="164" width="11" height="11" rx="3" fill="#db2777"/>
 <text x="60" y="174" font-size="14" fill="#eef0fb">Kotlin</text>
-<text x="462" y="174" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">14.7%</text>
+<text x="462" y="174" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">14.5%</text>
 <rect x="38" y="194" width="11" height="11" rx="3" fill="#3b4264"/>
 <text x="60" y="204" font-size="14" fill="#eef0fb">Other<tspan dx="10" font-size="12.5" fill="#6f7694">JavaScript, C#, Python +2</tspan></text>
-<text x="462" y="204" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">8.4%</text>
+<text x="462" y="204" text-anchor="end" font-size="14" fill="#a9b0cc" style="font-variant-numeric: tabular-nums">9.4%</text>
 </svg>
