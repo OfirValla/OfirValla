@@ -66,7 +66,6 @@
 <!-- ACTIVITY:START -->
 - `Nov 08` &nbsp;🔨 Pushed to [OfflineTaki](https://github.com/OfirValla/OfflineTaki)
 - `Oct 20` &nbsp;🔨 Pushed to [LabelStamp](https://github.com/OfirValla/LabelStamp)
-- `Oct 11` &nbsp;🔨 Pushed to [OfflineTaki](https://github.com/OfirValla/OfflineTaki)
 <!-- ACTIVITY:END -->
 
 <picture>
